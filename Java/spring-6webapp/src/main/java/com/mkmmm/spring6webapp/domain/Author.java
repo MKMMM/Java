@@ -1,5 +1,7 @@
 package com.mkmmm.spring6webapp.domain;
 import jakarta.persistence.*;
+
+import java.util.Objects;
 import java.util.Set;
 
 // Entity - Telling JPL that it's going to be persistent to the DB
@@ -45,6 +47,31 @@ private Set<Book> books;
 
     public void setFirstName(String firstName) {
         this.firstName = firstName;
+    }
+
+    @Override
+    public String toString() {
+        return "Author{" +
+                "id=" + id +
+                ", lastName='" + lastName + '\'' +
+                ", firstName='" + firstName + '\'' +
+                ", books=" + books +
+                '}';
+    }
+
+    @Override
+    public boolean equals(Object o) {
+        if (this == o) return true;
+        if (o == null || getClass() != o.getClass()) return false;
+
+        Author author = (Author) o;
+
+        return Objects.equals(id, author.id);
+    }
+
+    @Override
+    public int hashCode() {
+        return 0;
     }
 }
 
