@@ -68,7 +68,6 @@ private Set<Book> books;
 
         return Objects.equals(id, author.id);
     }
-
     @Override
     public int hashCode() {
         return 0;
