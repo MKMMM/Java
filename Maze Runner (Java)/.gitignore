@@ -1,0 +1,17 @@
+# course config files
+*.yaml
+
+# gradle
+.gradle/
+build
+
+
+# idea config
+.idea
+
+# old stages
+/Maze Runner (Java)/*
+!/Maze Runner (Java)/task/
+/Maze Runner (Java)/task/*
+!/Maze Runner (Java)/task/src
+!/Maze Runner (Java)/task/test_maze.txt
