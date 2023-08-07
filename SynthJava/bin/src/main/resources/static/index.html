@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Medidesk Speech Generator</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.9.3/css/bulma.min.css">
+    <style>
+    .container {
+      max-width: 600px;
+      margin: 0 auto;
+      padding: 20px;
+    }
+
+    .title {
+      margin-bottom: 20px;
+      text-align: center;
+    }
+
+    .textarea {
+      resize: vertical;
+      min-height: 100px;
+      padding: 10px;
+    }
+
+    .button-container {
+      display: flex;
+      justify-content: center;
+      margin-top: 20px;
+    }
+
+    .message {
+      margin-top: 20px;
+      text-align: center;
+    }
+
+    .miniplayer {
+      display: flex;
+      align-items: center;
+      margin-top: 20px;
+    }
+
+    .miniplayer audio {
+      flex-grow: 1;
+      margin-right: 10px;
+    }
+
+    .miniplayer button {
+      padding: 10px;
+      border: none;
+      background-color: #007bff;
+      color: #fff;
+      font-size: 14px;
+      cursor: pointer;
+    }
+  </style>
+</head>
+<body>
+<section class="section">
+    <div class="container">
+        <h1 class="title">Medidesk Generator Zapowiedzi</h1>
+        <form id="speechForm">
+            <div class="field">
+                <textarea id="textArea" name="text" class="textarea" placeholder="Enter text..." rows="5"></textarea>
+            </div>
+            <div class="field">
+                <div class="select">
+                    <select id="voiceSelector" name="voice">
+                        <option value="pl-PL-AgnieszkaNeural">Agnieszka (Female, Polish)</option>
+                        <option value="pl-PL-MarekNeural">Marek (Male, Polish)</option>
+                        <option value="pl-PL-ZofiaNeural">Zofia (Female, Polish)</option>
+                        <option value="en-US-GuyNeural">Guy (Male, English)</option>
+                        <option value="en-US-JennyNeural">Jenny (Female, English)</option>
+                    </select>
+                </div>
+            </div>
+            <div class="button-container">
+                <button type="submit" class="button is-primary">Generuj</button>
+            </div>
+        </form>
+        <div id="message" class="message"></div>
+        <div id="miniplayer" class="miniplayer">
+            <audio id="audioPlayer" controls></audio>
+            <button id="downloadButton" class="button is-primary" disabled>Pobierz</button>
+        </div>
+    </div>
+</section>
+
+<script>
+  document.addEventListener('DOMContentLoaded', function () {
+    var speechForm = document.getElementById('speechForm');
+    var downloadButton = document.getElementById('downloadButton');
+    var message = document.getElementById('message');
+    var audioPlayer = document.getElementById('audioPlayer');
+    var miniplayer = document.getElementById('miniplayer');
+
+    speechForm.addEventListener('submit', function (event) {
+      event.preventDefault();
+      var formData = new FormData(speechForm);
+      var selectedVoice = document.getElementById('voiceSelector').value;
+
+      if (formData.get('text').trim() === '') {
+        message.textContent = 'Please enter some text.';
+        return;
+      }
+
+      downloadButton.disabled = true;
+      message.textContent = 'Generating speech...';
+
+      fetch('/generate-speech?voice=' + selectedVoice, {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json'
+        },
+        body: JSON.stringify(Object.fromEntries(formData))
+      })
+        .then(function (response) {
+          if (response.ok) {
+            return response.text();
+          } else {
+            throw new Error('Speech generation failed.');
+          }
+        })
+        .then(function (messageText) {
+          message.textContent = messageText;
+          downloadButton.disabled = false;
+          miniplayer.style.display = 'flex';
+          audioPlayer.src = '/play-audio';
+        })
+        .catch(function (error) {
+          console.error(error);
+          message.textContent = 'Speech generation failed.';
+        });
+    });
+
+    downloadButton.addEventListener('click', function () {
+      window.location.href = '/play-audio';
+    });
+  });
+</script>
+</body>
+</html>

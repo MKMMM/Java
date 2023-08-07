@@ -1,0 +1,26 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: synthesizer
+  namespace: support-tools
+  labels:
+    app: synthesizer
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: synthesizer
+  strategy:
+    type: RollingUpdate
+    rollingUpdate:
+      maxSurge: 25%
+      maxUnavailable: 25%
+  template:
+    metadata:
+      labels:
+        app: synthesizer
+    spec:
+      containers:
+        - name: synthesizer
+          image: eu.gcr.io/medidesk-dev/support-tools/synthesizer:test
+          imagePullPolicy: Always
