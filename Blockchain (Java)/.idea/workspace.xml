@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="630a92c1-6cdc-4297-b054-a88814486f8f" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Topics/LocalDate/2 weeks after/src/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Topics/LocalDate/2 weeks after/task-info.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Topics/LocalDate/2 weeks after/task-remote-info.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Topics/LocalDate/2 weeks after/task.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Topics/LocalDate/LocalDate class/src/Task.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Topics/LocalDate/LocalDate class/task-info.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Topics/LocalDate/LocalDate class/task-remote-info.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Topics/LocalDate/LocalDate class/task.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Topics/LocalDate/Methods of LocalDate/src/Task.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Topics/LocalDate/Methods of LocalDate/task-info.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Topics/LocalDate/Methods of LocalDate/task-remote-info.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Topics/LocalDate/Methods of LocalDate/task.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Topics/LocalDate/Representing a date/src/Task.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Topics/LocalDate/Representing a date/task-info.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Topics/LocalDate/Representing a date/task-remote-info.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Topics/LocalDate/Representing a date/task.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Topics/LocalDate/Similar date/src/Task.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Topics/LocalDate/Similar date/task-info.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Topics/LocalDate/Similar date/task-remote-info.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Topics/LocalDate/Similar date/task.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Topics/LocalDate/The first day of a month or not/src/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Topics/LocalDate/The first day of a month or not/task-info.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Topics/LocalDate/The first day of a month or not/task-remote-info.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Topics/LocalDate/The first day of a month or not/task.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Topics/LocalDate/Theory/src/Task.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Topics/LocalDate/Theory/task-info.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Topics/LocalDate/Theory/task-remote-info.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Topics/LocalDate/Theory/task.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Topics/LocalDate/Working with dates/src/Task.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Topics/LocalDate/Working with dates/task-info.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Topics/LocalDate/Working with dates/task-remote-info.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Topics/LocalDate/Working with dates/task.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Topics/LocalDate/lesson-info.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Topics/section-info.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/course-info.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/course-remote-info.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/settings.gradle" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/Topics/LocalDate/2 weeks after/src/Main.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Topics/LocalDate/LocalDate class/src/Task.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Topics/LocalDate/Representing a date/src/Task.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Topics/LocalDate/Similar date/src/Task.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Topics/LocalDate/The first day of a month or not/src/Main.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Topics/LocalDate/Theory/src/Task.java" root0="FORCE_HIGHLIGHTING" />
+  </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 2
+}]]></component>
+  <component name="ProjectId" id="2TwrW5SYKShC4HBXtlAdj8xgAON" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Edu.Yaml.Migrate": "true",
+    "git-widget-placeholder": "master",
+    "settings.editor.selected.configurable": "Educational"
+  }
+}]]></component>
+  <component name="RunManager">
+    <configuration default="true" type="JetRunConfigurationType">
+      <module name="Blockchain_(Java)" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
+      <module name="Blockchain_(Java)" />
+      <option name="filePath" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="630a92c1-6cdc-4297-b054-a88814486f8f" name="Changes" comment="" />
+      <created>1691965012925</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1691965012925</updated>
+    </task>
+    <servers />
+  </component>
+</project>

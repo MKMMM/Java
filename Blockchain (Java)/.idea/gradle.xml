@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="GradleSettings">
+    <option name="linkedExternalProjectsSettings">
+      <GradleProjectSettings>
+        <option name="delegatedBuild" value="false" />
+        <option name="distributionType" value="WRAPPED" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="gradleJvm" value="#JAVA_INTERNAL" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$" />
+            <option value="$PROJECT_DIR$/Topics/LocalDate/2 weeks after" />
+            <option value="$PROJECT_DIR$/Topics/LocalDate/LocalDate class" />
+            <option value="$PROJECT_DIR$/Topics/LocalDate/Methods of LocalDate" />
+            <option value="$PROJECT_DIR$/Topics/LocalDate/Representing a date" />
+            <option value="$PROJECT_DIR$/Topics/LocalDate/Similar date" />
+            <option value="$PROJECT_DIR$/Topics/LocalDate/The first day of a month or not" />
+            <option value="$PROJECT_DIR$/Topics/LocalDate/Theory" />
+            <option value="$PROJECT_DIR$/Topics/LocalDate/Working with dates" />
+            <option value="$PROJECT_DIR$/util" />
+          </set>
+        </option>
+      </GradleProjectSettings>
+    </option>
+  </component>
+</project>
