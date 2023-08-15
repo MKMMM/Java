@@ -23,6 +23,17 @@ public class Book {
         return authors;
     }
 
+    @ManyToOne
+    private Publisher publisher;
+
+    public Publisher getPublisher() {
+        return publisher;
+    }
+
+    public void setPublisher(Publisher publisher) {
+        this.publisher = publisher;
+    }
+
     public void setAuthors(Set<Author> authors) {
         this.authors = authors;
     }

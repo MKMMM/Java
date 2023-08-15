@@ -6,8 +6,11 @@ import com.mkmmm.spring6webapp.domain.Publisher;
 import com.mkmmm.spring6webapp.repositories.AuthorRepository;
 import com.mkmmm.spring6webapp.repositories.BookRepository;
 import com.mkmmm.spring6webapp.repositories.publisherRepository;
+import jakarta.persistence.ManyToOne;
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.stereotype.Component;
+
+import java.util.Set;
 
 @Component
 public class BoostrapData implements CommandLineRunner {
@@ -15,6 +18,8 @@ public class BoostrapData implements CommandLineRunner {
     private final AuthorRepository authorRepository;
     private final BookRepository bookRepository;
     private final publisherRepository publisherRepository;
+
+
 
     public BoostrapData(AuthorRepository authorRepository, BookRepository bookRepository, publisherRepository publisherRepository) {
         this.authorRepository = authorRepository;
@@ -40,9 +45,6 @@ public class BoostrapData implements CommandLineRunner {
         somePublisher.setCity("Broken Arrow");
         somePublisher.setState("Oklahoma");
         somePublisher.setZip(12334);
-
-
-
 
         // Create save interfaces to repos
         // xxxxRepositories are instances of the class which extends the CRUDRepo
@@ -70,11 +72,19 @@ public class BoostrapData implements CommandLineRunner {
         macSaved.getBooks().add(bookSaved);
         rodSaved.getBooks().add(noEJBSaved);
 
+        Publisher savedPublisher = publisherRepository.save(pubSaved);
+        bookSaved.setPublisher(savedPublisher);
+        noEJBSaved.setPublisher(savedPublisher);
+        bookSaved.getAuthors().add(macSaved);
+        noEJBSaved.getAuthors().add(rodSaved);
+
         // Add persistance to the associations!!!!
         authorRepository.save(macSaved);
         authorRepository.save(rodSaved);
+        bookRepository.save(bookSaved);
+        bookRepository.save(noEJBSaved);
 
-        publisherRepository.save(pubSaved);
+
 
         System.out.println("In Boostrap");
         System.out.println("Author Count: " + authorRepository.count());
