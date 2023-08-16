@@ -71,7 +71,6 @@ public class Book {
 
         return Objects.equals(id, book.id);
     }
-
     @Override
     public int hashCode() {
         return 0;
