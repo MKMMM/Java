@@ -19,8 +19,6 @@ public class BoostrapData implements CommandLineRunner {
     private final BookRepository bookRepository;
     private final publisherRepository publisherRepository;
 
-
-
     public BoostrapData(AuthorRepository authorRepository, BookRepository bookRepository, publisherRepository publisherRepository) {
         this.authorRepository = authorRepository;
         this.bookRepository = bookRepository;
@@ -56,6 +54,7 @@ public class BoostrapData implements CommandLineRunner {
         Publisher pubSaved = publisherRepository.save(somePublisher);
 
 
+
         Author rod = new Author();
         rod.setFirstName("Rod");
         rod.setLastName("Blablablab");
@@ -72,19 +71,21 @@ public class BoostrapData implements CommandLineRunner {
         macSaved.getBooks().add(bookSaved);
         rodSaved.getBooks().add(noEJBSaved);
 
+
         Publisher savedPublisher = publisherRepository.save(pubSaved);
+        Author savedAuthor = authorRepository.save(macSaved);
+
         bookSaved.setPublisher(savedPublisher);
         noEJBSaved.setPublisher(savedPublisher);
         bookSaved.getAuthors().add(macSaved);
         noEJBSaved.getAuthors().add(rodSaved);
+
 
         // Add persistance to the associations!!!!
         authorRepository.save(macSaved);
         authorRepository.save(rodSaved);
         bookRepository.save(bookSaved);
         bookRepository.save(noEJBSaved);
-
-
 
         System.out.println("In Boostrap");
         System.out.println("Author Count: " + authorRepository.count());
