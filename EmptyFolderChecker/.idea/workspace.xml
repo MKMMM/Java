@@ -4,9 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="23442c50-f093-4bad-b090-6b00a6351325" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/../Blockchain (Java)/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Blockchain (Java)/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="23442c50-f093-4bad-b090-6b00a6351325" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -28,6 +26,7 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "main",
+    "last_opened_file_path": "C:/dev/Java/Skolenia",
     "onboarding.tips.debug.path": "C:/dev/Java/EmptyFolderChecker/src/Main.java",
     "settings.editor.selected.configurable": "Educational"
   }
