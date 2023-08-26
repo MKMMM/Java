@@ -2,3 +2,5 @@ content:
 - LocalDate
 - LocalTime
 - LocalDateTime
+- Period and Duration
+- Instant

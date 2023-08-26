@@ -11,6 +11,8 @@
         <option name="modules">
           <set>
             <option value="$PROJECT_DIR$" />
+            <option value="$PROJECT_DIR$/Topics/Instant/The Instant to a long" />
+            <option value="$PROJECT_DIR$/Topics/Instant/Theory" />
             <option value="$PROJECT_DIR$/Topics/LocalDate/2 weeks after" />
             <option value="$PROJECT_DIR$/Topics/LocalDate/LocalDate class" />
             <option value="$PROJECT_DIR$/Topics/LocalDate/Methods of LocalDate" />
@@ -28,6 +30,10 @@
             <option value="$PROJECT_DIR$/Topics/LocalTime/Seconds between two time points" />
             <option value="$PROJECT_DIR$/Topics/LocalTime/Theory" />
             <option value="$PROJECT_DIR$/Topics/LocalTime/Working with time" />
+            <option value="$PROJECT_DIR$/Topics/Period and Duration/Extracting from a Period unit" />
+            <option value="$PROJECT_DIR$/Topics/Period and Duration/The correct Duration unit" />
+            <option value="$PROJECT_DIR$/Topics/Period and Duration/The difference between Duration units" />
+            <option value="$PROJECT_DIR$/Topics/Period and Duration/Theory" />
             <option value="$PROJECT_DIR$/util" />
           </set>
         </option>

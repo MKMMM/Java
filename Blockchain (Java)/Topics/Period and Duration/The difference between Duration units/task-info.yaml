@@ -1,0 +1,42 @@
+type: code
+files:
+- name: src/Main.java
+  visible: true
+  text: |-
+    import java.time.Duration;
+    import java.time.temporal.ChronoUnit;
+    import java.util.*;
+
+    public class Main {
+        public static void main(String[] args) {
+            Scanner scanner = new Scanner(System.in);
+            List<Duration> durations = createDurationList(scanner);
+
+            Duration result = getMaxMinusAvg(durations);
+
+            System.out.println(result);
+        }
+
+        public static List<Duration> createDurationList(Scanner scanner) {
+            List<Duration> list = new ArrayList<>();
+            list.add(Duration.of(scanner.nextInt(), ChronoUnit.DAYS));
+            list.add(Duration.of(scanner.nextInt(), ChronoUnit.HOURS));
+            list.add(Duration.of(scanner.nextInt(), ChronoUnit.MINUTES));
+            list.add(Duration.of(scanner.nextInt(), ChronoUnit.MINUTES));
+            list.add(Duration.of(scanner.nextInt(), ChronoUnit.SECONDS));
+
+            return list;
+        }
+
+        public static Duration getMaxMinusAvg(List<Duration> durations) {
+
+        }
+    }
+  learner_created: false
+feedback_link: https://hyperskill.org/learn/step/20793#comment
+status: Solved
+feedback:
+  message: <html>Correct solution</html>
+  time: "Fri, 25 Aug 2023 13:22:27 UTC"
+record: -1
+submission_language: java17

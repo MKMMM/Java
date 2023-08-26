@@ -4,7 +4,66 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="630a92c1-6cdc-4297-b054-a88814486f8f" name="Changes" comment="" />
+    <list default="true" id="630a92c1-6cdc-4297-b054-a88814486f8f" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/modules/Topics/Instant/The Instant to a long/Blockchain_(Java).Topics-Instant-The_Instant_to_a_long.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules/Topics/Instant/The Instant to a long/Blockchain_(Java).Topics-Instant-The_Instant_to_a_long.main.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules/Topics/Instant/The Instant to a long/Blockchain_(Java).Topics-Instant-The_Instant_to_a_long.test.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules/Topics/Instant/Theory/Blockchain_(Java).Topics-Instant-Theory.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules/Topics/Instant/Theory/Blockchain_(Java).Topics-Instant-Theory.main.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules/Topics/Instant/Theory/Blockchain_(Java).Topics-Instant-Theory.test.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules/Topics/Period and Duration/Extracting from a Period unit/Blockchain_(Java).Topics-Period_and_Duration-Extracting_from_a_Period_unit.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules/Topics/Period and Duration/Extracting from a Period unit/Blockchain_(Java).Topics-Period_and_Duration-Extracting_from_a_Period_unit.main.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules/Topics/Period and Duration/Extracting from a Period unit/Blockchain_(Java).Topics-Period_and_Duration-Extracting_from_a_Period_unit.test.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules/Topics/Period and Duration/The correct Duration unit/Blockchain_(Java).Topics-Period_and_Duration-The_correct_Duration_unit.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules/Topics/Period and Duration/The correct Duration unit/Blockchain_(Java).Topics-Period_and_Duration-The_correct_Duration_unit.main.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules/Topics/Period and Duration/The correct Duration unit/Blockchain_(Java).Topics-Period_and_Duration-The_correct_Duration_unit.test.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules/Topics/Period and Duration/The difference between Duration units/Blockchain_(Java).Topics-Period_and_Duration-The_difference_between_Duration_units.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules/Topics/Period and Duration/The difference between Duration units/Blockchain_(Java).Topics-Period_and_Duration-The_difference_between_Duration_units.main.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules/Topics/Period and Duration/The difference between Duration units/Blockchain_(Java).Topics-Period_and_Duration-The_difference_between_Duration_units.test.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules/Topics/Period and Duration/Theory/Blockchain_(Java).Topics-Period_and_Duration-Theory.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules/Topics/Period and Duration/Theory/Blockchain_(Java).Topics-Period_and_Duration-Theory.main.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules/Topics/Period and Duration/Theory/Blockchain_(Java).Topics-Period_and_Duration-Theory.test.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Topics/Instant/The Instant to a long/src/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Topics/Instant/The Instant to a long/task-info.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Topics/Instant/The Instant to a long/task-remote-info.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Topics/Instant/The Instant to a long/task.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Topics/Instant/Theory/src/Task.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Topics/Instant/Theory/task-info.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Topics/Instant/Theory/task-remote-info.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Topics/Instant/Theory/task.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Topics/Instant/lesson-info.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Topics/Period and Duration/Extracting from a Period unit/src/Task.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Topics/Period and Duration/Extracting from a Period unit/task-info.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Topics/Period and Duration/Extracting from a Period unit/task-remote-info.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Topics/Period and Duration/Extracting from a Period unit/task.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Topics/Period and Duration/The correct Duration unit/src/Task.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Topics/Period and Duration/The correct Duration unit/task-info.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Topics/Period and Duration/The correct Duration unit/task-remote-info.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Topics/Period and Duration/The correct Duration unit/task.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Topics/Period and Duration/The difference between Duration units/src/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Topics/Period and Duration/The difference between Duration units/task-info.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Topics/Period and Duration/The difference between Duration units/task-remote-info.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Topics/Period and Duration/The difference between Duration units/task.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Topics/Period and Duration/Theory/src/Task.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Topics/Period and Duration/Theory/task-info.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Topics/Period and Duration/Theory/task-remote-info.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Topics/Period and Duration/Theory/task.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Topics/Period and Duration/lesson-info.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/8.2/checksums/checksums.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.2/checksums/checksums.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/8.2/checksums/sha1-checksums.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.2/checksums/sha1-checksums.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/8.2/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.2/executionHistory/executionHistory.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/8.2/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.2/executionHistory/executionHistory.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/8.2/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.2/fileHashes/fileHashes.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/8.2/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.2/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Topics/LocalDate/Theory/task-remote-info.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/Topics/LocalDate/Theory/task-remote-info.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Topics/LocalDateTime/Subtracting hours and adding minutes/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/Topics/LocalDateTime/Subtracting hours and adding minutes/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Topics/section-info.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/Topics/section-info.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/course-remote-info.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/course-remote-info.yaml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -15,10 +74,23 @@
       <ProjectState />
     </projectState>
   </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <projects_view>
+          <tree_state>
+            <expand />
+            <select />
+          </tree_state>
+        </projects_view>
+      </state>
+    </system>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/Topics/Instant/The Instant to a long/src/Main.java" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Topics/LocalDate/2 weeks after/src/Main.java" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Topics/LocalDate/LocalDate class/src/Task.java" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Topics/LocalDate/Methods of LocalDate/src/Task.java" root0="FORCE_HIGHLIGHTING" />
@@ -31,7 +103,15 @@
     <setting file="file://$PROJECT_DIR$/Topics/LocalDateTime/Add days and subtract hours/src/Main.java" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Topics/LocalDateTime/Subtracting hours and adding minutes/src/Main.java" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Topics/LocalDateTime/The passed hours since the beginning of year/src/Main.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Topics/LocalDateTime/Theory/src/Task.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Topics/LocalTime/Same time/src/Task.java" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Topics/LocalTime/Seconds between two time points/src/Main.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Topics/LocalTime/Theory/src/Task.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Topics/LocalTime/Working with time/src/Task.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Topics/Period and Duration/Extracting from a Period unit/src/Task.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Topics/Period and Duration/The correct Duration unit/src/Task.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Topics/Period and Duration/The difference between Duration units/src/Main.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Topics/Period and Duration/Theory/src/Task.java" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 2
@@ -41,14 +121,15 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Edu.Yaml.Migrate": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "git-widget-placeholder": "main",
-    "settings.editor.selected.configurable": "Educational"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Edu.Yaml.Migrate&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;Educational&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager">
     <configuration default="true" type="JetRunConfigurationType">
       <module name="Blockchain_(Java)" />
@@ -74,5 +155,15 @@
       <updated>1691965012925</updated>
     </task>
     <servers />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <breakpoint type="java-exception">
+          <properties class="java.lang.NumberFormatException" package="java.lang" />
+          <option name="timeStamp" value="4" />
+        </breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
