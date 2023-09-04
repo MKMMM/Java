@@ -18,19 +18,19 @@ This repository contains a collection of Java-based projects. Below is a brief o
 - **Description**: A simple "Hello World" application in Java.
 
 ## :file_folder: InteliJ
-- **Description**: Projects or configurations related to the IntelliJ IDE.
+- **Description**: Projects related to the IntelliJ Hyperskill.
 
 ## :file_folder: Kafka Projects
-- **Description**: Java implementations related to Kafka integrations.
+- **Description**: Files related to Kafka integrations.
 
 ## :file_folder: Maze Runner (Java)
-- **Description**: A game or simulation involving maze navigation.
+- **Description**: A game involving maze navigation - generate / solve / mazes!
 
-## :file_folder: Skolenia
-- **Description**: Not specified (possibly related to training or courses).
+## :file_folder: Szkolenia
+- **Description**: Training related.
 
 ## :file_folder: SynthJava
-- **Description**: A Java project related to sound synthesis or music.
+- **Description**: A Java voice synthesizer.
 
 ## :file_folder: Tic-Tac-Toe with AI (Java)
 - **Description**: An AI-powered Tic-Tac-Toe game implemented in Java.
@@ -39,10 +39,10 @@ This repository contains a collection of Java-based projects. Below is a brief o
 - **Description**: A sample Java application for demonstration or testing.
 
 ## :file_folder: spring-6webapp
-- **Description**: A web application built using the Spring framework.
+- **Description**: A simple web application built using the Spring framework testing Hibernate.
 
 ## :file_folder: spring-DIDemo
-- **Description**: A demonstration of Dependency Injection using the Spring framework.
+- **Description**: A simple demonstration of Dependency Injection using the Spring framework.
 
 ---
 
