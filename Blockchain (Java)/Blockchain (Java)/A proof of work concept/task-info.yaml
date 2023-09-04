@@ -239,6 +239,161 @@ files:
         }
     }
   learner_created: false
+- name: src/blockchain/StringUtil.java
+  visible: true
+  text: |
+    package blockchain;
+    import java.security.MessageDigest;
+
+    public class StringUtil {
+        public static String applySha256(String input) {
+            try {
+                MessageDigest digest = MessageDigest.getInstance("SHA-256");
+                byte[] hash = digest.digest(input.getBytes("UTF-8"));
+                StringBuilder hexString = new StringBuilder();
+                for (byte elem : hash) {
+                    String hex = Integer.toHexString(0xff & elem);
+                    if (hex.length() == 1) hexString.append('0');
+                    hexString.append(hex);
+                }
+                return hexString.toString();
+            } catch (Exception e) {
+                throw new RuntimeException(e);
+            }
+        }
+    }
+  learner_created: true
+- name: src/blockchain/Runner.java
+  visible: true
+  text: |
+    package blockchain;
+    public class Runner {
+        private final int numOfBlocks;
+
+        public Runner(int numOfBlocks) {
+            this.numOfBlocks = numOfBlocks;
+        }
+
+        public void StartChain() {
+
+            // Initialize the blockchain with a specified number of blocks
+            BlockChain myBlockchain = new BlockChain();
+
+            for (int i = 0; i < numOfBlocks; i++) {
+                myBlockchain.addBlock();
+                myBlockchain.printBlockChain(i);
+            }
+
+        }
+
+
+    }
+  learner_created: true
+- name: src/blockchain/BlockChain.java
+  visible: true
+  text: |
+    package blockchain;
+    import java.util.ArrayList;
+
+    public class BlockChain {
+        private ArrayList<Block> chain;
+
+        // Create a constructor with an initial block
+        public BlockChain() {
+            chain = new ArrayList<>();
+            chain.add(createGenesisBlock());
+        }
+
+        private Block createGenesisBlock() {
+            // Generate first block with ID 1 and initial hash 0
+            return new Block(1, "0");
+        }
+
+        public Block getLastBlock() {
+            return chain.get(chain.size() - 1);
+        }
+
+        public void addBlock() {
+
+            // Collecting the information and adding a new block
+            Block lastBlock = getLastBlock();
+            int newId = lastBlock.getId() + 1;
+            String previousHash = lastBlock.getHash();
+            Block newBlock = new Block(newId, previousHash);
+            chain.add(newBlock);
+        }
+
+        public boolean validateChain() {
+            // Check the chain size and compare hashes of blocks together
+            for (int i = 1; i < chain.size(); i++) {
+                Block currentBlock = chain.get(i);
+                Block previousBlock = chain.get(i - 1);
+
+                if (!currentBlock.getHash().equals(currentBlock.calculateHash())) {
+                    return false;
+                }
+
+                if (!currentBlock.getPreviousHash().equals(previousBlock.getHash())) {
+                    return false;
+                }
+            }
+            return true;
+        }
+
+        public void printBlockChain(int index){
+
+                System.out.println("Block:");
+                System.out.println("Id: " + chain.get(index).getId());
+                System.out.println("Timestamp: " + chain.get(index).getTimeStamp());
+                System.out.println("Hash of the previous block:");
+                System.out.println(chain.get(index).getPreviousHash());
+                System.out.println("Hash of the block:");
+                System.out.println(chain.get(index).getHash());
+                System.out.println();
+        }
+
+    }
+  learner_created: true
+- name: src/blockchain/Block.java
+  visible: true
+  text: |
+    package blockchain;
+    import java.util.Date;
+
+    public class Block {
+        private final long timeStamp;
+        private final int id;
+        private final String hash;
+        private final String previousHash;
+
+        public Block(int id, String previousHash) {
+            this.id = id;
+            this.previousHash = previousHash;
+            this.timeStamp = new Date().getTime();
+            this.hash = calculateHash();
+        }
+        public String calculateHash() {
+            return StringUtil.applySha256(
+                    id +
+                            Long.toString(timeStamp) +
+                            previousHash);
+        }
+        public String getHash() {
+            return hash;
+        }
+
+        public String getPreviousHash() {
+            return previousHash;
+        }
+        public int getId() {
+            return id;
+        }
+
+        public long getTimeStamp() {
+            return timeStamp;
+        }
+    }
+  learner_created: true
 feedback_link: https://hyperskill.org/learn/step/5414#comment
 status: Unchecked
 record: -1
